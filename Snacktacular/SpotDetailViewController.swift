@@ -75,7 +75,7 @@ extension SpotDetailViewController: GMSAutocompleteViewControllerDelegate {
     print("Place ID: \(place.placeID)")
     print("Place attributions: \(place.attributions)")
     spot.name = place.name ?? "Unknown Place"
-    spot.address = place.name ?? "Unknown Place"
+    spot.address = place.formattedAddress ?? "Unknown Place"
     print("Coordinates = \(place.coordinate)")
     updateUserInterface()
     dismiss(animated: true, completion: nil)
