@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		09124BD62553302A00820BE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09124BD52553302900820BE6 /* GoogleService-Info.plist */; };
+		09124BFC2553355F00820BE6 /* SpotListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09124BFB2553355F00820BE6 /* SpotListViewController.swift */; };
+		09124BFF25536CE400820BE6 /* SpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09124BFE25536CE300820BE6 /* SpotTableViewCell.swift */; };
+		09124C02255370AE00820BE6 /* SpotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09124C01255370AE00820BE6 /* SpotDetailViewController.swift */; };
 		0939B28B255321B700951444 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0939B28A255321B700951444 /* AppDelegate.swift */; };
 		0939B28D255321B700951444 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0939B28C255321B700951444 /* SceneDelegate.swift */; };
 		0939B28F255321B700951444 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0939B28E255321B700951444 /* LoginViewController.swift */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		014B65936004D1F5B0F343B7 /* Pods_Snacktacular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snacktacular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09124BD52553302900820BE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		09124BFB2553355F00820BE6 /* SpotListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotListViewController.swift; sourceTree = "<group>"; };
+		09124BFE25536CE300820BE6 /* SpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTableViewCell.swift; sourceTree = "<group>"; };
+		09124C01255370AE00820BE6 /* SpotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailViewController.swift; sourceTree = "<group>"; };
 		0939B287255321B700951444 /* Snacktacular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snacktacular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0939B28A255321B700951444 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0939B28C255321B700951444 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +82,9 @@
 				0939B28A255321B700951444 /* AppDelegate.swift */,
 				0939B28C255321B700951444 /* SceneDelegate.swift */,
 				0939B28E255321B700951444 /* LoginViewController.swift */,
+				09124BFB2553355F00820BE6 /* SpotListViewController.swift */,
+				09124BFE25536CE300820BE6 /* SpotTableViewCell.swift */,
+				09124C01255370AE00820BE6 /* SpotDetailViewController.swift */,
 				0939B290255321B700951444 /* Main.storyboard */,
 				0939B293255321BA00951444 /* Assets.xcassets */,
 				0939B295255321BA00951444 /* LaunchScreen.storyboard */,
@@ -227,8 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09124BFC2553355F00820BE6 /* SpotListViewController.swift in Sources */,
 				0939B28F255321B700951444 /* LoginViewController.swift in Sources */,
 				0939B28B255321B700951444 /* AppDelegate.swift in Sources */,
+				09124C02255370AE00820BE6 /* SpotDetailViewController.swift in Sources */,
+				09124BFF25536CE400820BE6 /* SpotTableViewCell.swift in Sources */,
 				0939B28D255321B700951444 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
