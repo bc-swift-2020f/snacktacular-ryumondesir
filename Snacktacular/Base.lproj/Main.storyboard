@@ -15,7 +15,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Snacktacular" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -34,7 +34,7 @@
             <objects>
                 <viewController id="H8G-Sb-4tM" customClass="SpotListViewController" customModule="Snacktacular" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="34g-QG-Gp6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VU1-6G-y7w">
@@ -87,9 +87,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="distanceLabel" destination="wCs-mi-I2S" id="8sL-We-D3h"/>
-                                            <outlet property="nameLabel" destination="j41-wL-jw6" id="uXY-gC-r7s"/>
-                                            <outlet property="ratingLabel" destination="Uce-N2-blL" id="893-BT-CUZ"/>
+                                            <outlet property="distanceLabel" destination="wCs-mi-I2S" id="Mzs-1V-sUN"/>
+                                            <outlet property="nameLabel" destination="j41-wL-jw6" id="N2S-4W-SOX"/>
+                                            <outlet property="ratingLabel" destination="Uce-N2-blL" id="1JB-Pu-kan"/>
                                             <segue destination="9Sk-U0-8EV" kind="show" identifier="ShowDetail" id="RxC-ts-Pxu"/>
                                         </connections>
                                     </tableViewCell>
@@ -137,7 +137,7 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                     <connections>
-                        <outlet property="sortSegmentedControl" destination="m5J-dm-1jf" id="oDV-b0-5j5"/>
+                        <outlet property="sortSegmentedControl" destination="m5J-dm-1jf" id="14y-vW-CBp"/>
                         <outlet property="tableView" destination="VU1-6G-y7w" id="4MN-jV-mgD"/>
                     </connections>
                 </viewController>
@@ -283,8 +283,18 @@
                                 <action selector="cancelButtonPressed:" destination="9Sk-U0-8EV" id="Ie6-zo-UeF"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Uqu-f5-9MZ">
+                            <connections>
+                                <action selector="saveButtonPressed:" destination="9Sk-U0-8EV" id="tQe-vn-YDl"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="addressTextField" destination="O4E-kc-He0" id="dvz-3g-OMh"/>
+                        <outlet property="nameTextField" destination="f69-Nn-kKK" id="6YW-Lm-KI7"/>
+                        <outlet property="ratingLabel" destination="iJl-z2-tCi" id="F96-Ed-fZN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ogv-a3-rEL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
