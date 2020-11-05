@@ -20,6 +20,7 @@
 		09601E6725538227000BEF4C /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09601E6625538227000BEF4C /* Spot.swift */; };
 		09601E6A25539503000BEF4C /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09601E6925539503000BEF4C /* UIViewController+alert.swift */; };
 		09601E6E255399F1000BEF4C /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09601E6D255399F1000BEF4C /* Spots.swift */; };
+		09CCA15C2553C2B3003529B7 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CCA15B2553C2B3003529B7 /* APIKeys.swift */; };
 		B667533703697B87CB9D3FDA /* Pods_Snacktacular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014B65936004D1F5B0F343B7 /* Pods_Snacktacular.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		09601E6625538227000BEF4C /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 		09601E6925539503000BEF4C /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
 		09601E6D255399F1000BEF4C /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
+		09CCA15B2553C2B3003529B7 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
 		4D31DE5A669A4F334B565002 /* Pods-Snacktacular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.debug.xcconfig"; path = "Target Support Files/Pods-Snacktacular/Pods-Snacktacular.debug.xcconfig"; sourceTree = "<group>"; };
 		669A24F8242DB5A59FD1CE65 /* Pods-Snacktacular.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.release.xcconfig"; path = "Target Support Files/Pods-Snacktacular/Pods-Snacktacular.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 				09124BFE25536CE300820BE6 /* SpotTableViewCell.swift */,
 				09124C01255370AE00820BE6 /* SpotDetailViewController.swift */,
 				09601E6925539503000BEF4C /* UIViewController+alert.swift */,
+				09CCA15B2553C2B3003529B7 /* APIKeys.swift */,
 				0939B290255321B700951444 /* Main.storyboard */,
 				0939B293255321BA00951444 /* Assets.xcassets */,
 				0939B295255321BA00951444 /* LaunchScreen.storyboard */,
@@ -251,6 +254,7 @@
 				09124C02255370AE00820BE6 /* SpotDetailViewController.swift in Sources */,
 				09601E6E255399F1000BEF4C /* Spots.swift in Sources */,
 				09124BFF25536CE400820BE6 /* SpotTableViewCell.swift in Sources */,
+				09CCA15C2553C2B3003529B7 /* APIKeys.swift in Sources */,
 				09601E6725538227000BEF4C /* Spot.swift in Sources */,
 				0939B28D255321B700951444 /* SceneDelegate.swift in Sources */,
 				09601E6A25539503000BEF4C /* UIViewController+alert.swift in Sources */,
