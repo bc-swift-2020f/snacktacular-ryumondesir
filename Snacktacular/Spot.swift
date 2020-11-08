@@ -22,6 +22,18 @@ class Spot: NSObject, MKAnnotation {
         return ["name": name, "address": address, "latitude": latitude, "longitude": longitude, "averageRating": averageRating,"numberOfReviews": numberOfReviews, "postingUserID": postingUserID]
     }
     
+    var latitude: CLLocationDegrees {
+        return coordinate.latitude
+    }
+    
+    var longitude: CLLocationDegrees {
+        return coordinate.longitude
+    }
+    
+    var location: CLLocation {
+        return CLLocation(latitude: latitude, longitude: longitude)
+    }
+    
     var title: String? {
         return name
     }
@@ -30,13 +42,7 @@ class Spot: NSObject, MKAnnotation {
         return address
     }
     
-    var latitude: CLLocationDegrees {
-        return coordinate.latitude
-    }
     
-    var longitude: CLLocationDegrees {
-        return coordinate.longitude
-    }
     
     init(name: String, address: String, coordinate:CLLocationCoordinate2D, averageRating: Double, numberOfReviews: Int, postingUserID: String, documentID: String) {
         self.name = name
@@ -66,7 +72,7 @@ class Spot: NSObject, MKAnnotation {
     
     func saveData(completion: @escaping (Bool) -> ()) {
         let db = Firestore.firestore()
-//        Grab the user ID
+        //        Grab the user ID
         guard let postingUserID = Auth.auth().currentUser?.uid else {
             print("ERROR: Could not save data because we don't have a valid postingUserID.")
             return completion(false)
